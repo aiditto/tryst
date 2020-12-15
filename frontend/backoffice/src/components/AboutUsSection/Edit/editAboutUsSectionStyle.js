@@ -1,3 +1,5 @@
+import { whiteColor, dangerColor, primaryColor } from "assets/jss/aiditto-pro-style/aidittoColorStyles.js";
+
 const styles = () => ({
   root: {
     "& .MuiDialogContent-root ": {

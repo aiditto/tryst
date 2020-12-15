@@ -16,60 +16,14 @@ import {
   hexToRgb
 } from "assets/jss/aiditto-pro-style";
 
-const navBarStyles = theme => ({
-  root: {
-    minWidth: "20%",
-    backgroundColor: "#fff !important",
-    border: "2px solid black",
-    display: "flex",
-    flexDirection: "column !important",
-    minHeight: "100vh",
-    padding: "30px",
-    alignItems: "flex-start",
-    boxShadow: "inset -1px 0 0 rgba(0, 0, 0, .1)",
-
-    "& button": {
-      width: "200px",
-      backgroundColor: "#e35756 !important",
-      color: "white"
-    }
-  },
-
-  navLink: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    padding: "10px 0 ",
-    textDecoration: "none",
-    color: "black",
-    fontWeight: 600,
-    "& svg": {
-      marginRight: "5px"
-    },
-    "&:hover": {
-      color: "gray !important"
-    },
-    "&:visited": {
-      color: "black !important"
-    }
-  },
-  linkWrap: {
-    width: "100%",
-    display: "flex",
-    alignItems: "flex-start",
-    flexDirection: "column"
-  },
-  underWrap: {
-    display: "flex",
-    flexDirection: "column"
-  },
+const pagesHeaderStyle = theme => ({
   appBar: {
-    backgroundColor: theme.palette.primary.main,
+    backgroundColor: primaryColor,
     boxShadow: "none",
     marginBottom: "0",
     width: "100%",
     zIndex: "1029",
-    color: theme.palette.primary.contrastText,
+    color: grayColor[6],
     border: "0",
     transition: "all 150ms ease 0s",
     display: "block",
@@ -224,8 +178,11 @@ const navBarStyles = theme => ({
   },
   aidLogo: {
     display: "flex",
+    fontSize: "1.6em",
+    fontWeight: "bold",
+    fontFamily: '"Montserrat", "Arial", sans-serif',
     "&,&:hover,&:focus": {
-      color: theme.palette.primary.contrastText
+      color: "white"
     }
   },
   cityName: {
@@ -280,4 +237,4 @@ const navBarStyles = theme => ({
   }
 });
 
-export default navBarStyles;
+export default pagesHeaderStyle;
