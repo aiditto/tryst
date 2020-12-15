@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "frontend/backoffice"
+    },
+    {
+      "path": "frontend/tryst"
+    },
+    {
+      "path": "backend/loopback"
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "name": "loopback",
+  "version": "1.0.0",
+  "description": "BackendService",
+  "keywords": [
+    "loopback-application",
+    "loopback"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=10.16"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "build": "lb-tsc",
+    "build:watch": "lb-tsc --watch",
+    "lint": "npm run prettier:check && npm run eslint",
+    "lint:fix": "npm run eslint:fix && npm run prettier:fix",
+    "prettier:cli": "lb-prettier \"**/*.ts\" \"**/*.js\"",
+    "prettier:check": "npm run prettier:cli -- -l",
+    "prettier:fix": "npm run prettier:cli -- --write",
+    "eslint": "lb-eslint --report-unused-disable-directives .",
+    "eslint:fix": "npm run eslint -- --fix",
+    "pretest": "npm run clean && npm run build",
+    "test": "lb-mocha --allow-console-logs \"dist/__tests__\"",
+    "posttest": "npm run lint",
+    "test:dev": "lb-mocha --allow-console-logs dist/__tests__/**/*.js && npm run posttest",
+    "docker:build": "docker build -t loopback .",
+    "docker:run": "docker run -p 8080:8080 -d loopback",
+    "migrate": "node ./dist/migrate",
+    "openapi-spec": "node ./dist/openapi-spec",
+    "prestart": "npm run build",
+    "start": "node_modules/nodemon/bin/nodemon.js -x \"node -r source-map-support/register .\"",
+    "clean": "lb-clean dist *.tsbuildinfo .eslintcache"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "AIDITTO AB <contact@aiditto.org>",
+  "license": "",
+  "files": [
+    "README.md",
+    "dist",
+    "src",
+    "!*/__tests__"
+  ],
+  "dependencies": {
+    "@loopback/authentication": "^7.0.0",
+    "@loopback/authentication-jwt": "^0.7.0",
+    "@loopback/authentication-passport": "^3.0.0",
+    "@loopback/boot": "^3.0.0",
+    "@loopback/core": "^2.10.0",
+    "@loopback/repository": "^3.0.0",
+    "@loopback/rest": "^7.0.0",
+    "@loopback/rest-explorer": "^3.0.0",
+    "@loopback/service-proxy": "^3.0.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/passport-azure-ad": "^4.0.7",
+    "axios": "^0.21.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "3.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "loopback-connector-postgresql": "^5.1.0",
+    "moment": "^2.28.0",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-azure-ad": "^4.3.0",
+    "prettier": "^2.1.1",
+    "tslib": "^2.0.0",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {
+    "@loopback/build": "^6.2.3",
+    "source-map-support": "^0.5.19",
+    "@loopback/testlab": "^3.2.5",
+    "@types/node": "^10.17.34",
+    "@loopback/eslint-config": "^10.0.0",
+    "eslint": "^7.9.0",
+    "typescript": "~4.0.2"
+  }
+}

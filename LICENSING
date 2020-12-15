@@ -1,0 +1,8 @@
+Each project in this repository is copyrighted and licensed individually.
+Including but not limited to:
+ * frontend/tryst
+ * frontend/backoffice
+ * backend/loopback
+
+When updating code, please include the following Copyright below the original Copyright as an AIDITTO AB committer:
+Copyright 2020 AIDITTO AB

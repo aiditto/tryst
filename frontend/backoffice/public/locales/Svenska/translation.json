@@ -1,0 +1,482 @@
+{
+  "tagline": "Från goda intentioner till värdefulla givande handlingar i kristider",
+  "home": {
+    "tagline": "Från goda intentioner till värdefulla givande handlingar i kristider",
+    "heading": "Allmänheten vill hjälpa till!",
+    "text": "Vår offentliga sektor får så många hjälperbjudanden från det civila samhället. Tyvärr är mycket av hjälpen inte strukturerad på ett användbart sätt. Informationen om hur hjälpen ser ut lokalt måste få en plats. Individer och företag måste erbjudas på ett enkelt, säkert och relevant sätt, vilket är till hjälp för båda ändarna.",
+    "login": "<0>Logga in med Azure AD</0> <1>om du har fått en inbjudan, eller</1> <2>Kontakta oss för att sätta upp din domän</2>"
+  },
+  "nativeName": "Svenska",
+  "navbar": {
+    "create-site": "Skapa ny webbplats",
+    "sites": "Webbplatser",
+    "settings": "Inställningar",
+    "users": "Användare",
+    "logout": "Logga ut"
+  },
+  "login": {
+    "title": "Logga In",
+    "email": "Email...",
+    "password": "Lösenord...",
+    "submit": "Logga in",
+    "text": "Already Registered with AIDITTO, Click on Login otherwise contact us at contact@aiditto.org for signup"
+  },
+  "landingPage": {
+    "subscribe": "Vill du följa med?"
+  },
+  "news": {
+    "title": "Nyheter",
+    "filter": {
+      "placeholder": "Stad...",
+      "all": "Visa alla kommuner"
+    }
+  },
+  "contributor": {
+    "register": {
+      "title": "Skapa konto",
+      "accountType": {
+        "label": "Jag representerar...",
+        "person": "mig själv",
+        "organisation": "ett företag eller en organisation"
+      },
+      "organisation": {
+        "name": "Namn på organisationen",
+        "registrationNumber": "Organisationsnummer"
+      },
+      "name": "Namn...",
+      "address": "Adress...",
+      "city": "Stad...",
+      "postalCode": "Postnummer...",
+      "phone": "Telefonnummer...",
+      "email": "Email...",
+      "password": "Lösenord...",
+      "confirmPassword": "Repetera lösenord...",
+      "acceptTerms": "Jag godkänner <0>de allmänna villkoren</0>"
+    },
+    "profile": {
+      "title": "Profil",
+      "informationTitle": "Personlig Information",
+      "assetsTitle": "Mina Bidrag"
+    }
+  },
+  "connectItems": {
+    "demandsTitle": "Behov",
+    "assetsTitle": "Tillgångar",
+    "resetFilter": "Visa alla tillgångar",
+    "select": "Välj",
+    "deselect": "Avmarkera",
+    "submit": "Koppla",
+    "confirm": {
+      "title": "Kontrollera att uppgifterna stämmer",
+      "productName": "Produkt:",
+      "quantity": "Antal:",
+      "demander": {
+        "title": "Beställare",
+        "address": "Till:",
+        "contact": "Uppgifter:"
+      },
+      "receivers": {
+        "title": "Kopplas ihop med tillgångar",
+        "address": "Till:",
+        "contact": "Uppgifter:"
+      },
+      "submit": "Skicka",
+      "cancel": "Stäng"
+    }
+  },
+  "products": {
+    "name": "Produkt",
+    "select": "Välj produkt",
+    "createInfo": "Skapa infosida",
+    "add": "Lägg till",
+    "infoForm": {
+      "cancel": "Stäng",
+      "submit": "Spara"
+    },
+    "addForm": {
+      "category": "Välj kategori",
+      "name": "Produktnamn",
+      "title": "Lägg till en ny produkt?"
+    },
+    "createAsset": "Erbjud hjälp",
+    "showInfo": "Info",
+    "hideInfo": "Stäng",
+    "noOption": "Inget produkt hittades"
+  },
+  "sites": {
+    "sitesTitle": "Webbplatser",
+    "name": "Sidnamn",
+    "url": "URL",
+    "status": {
+      "name": "Status",
+      "drafted": "Utkast",
+      "published": "Publicerad",
+      "archived": "Arkiverad"
+    },
+    "info": "Information",
+    "identifier": "Identifierare",
+    "styling": {
+      "title": {
+        "colors": "Lägg till temafärger",
+        "logo": "Lägg till logga"
+      },
+      "primaryColor": "Grundfärg",
+      "secondaryColor": "Sekundär färg",
+      "useLogoLabel": "Webbplats logga"
+    },
+    "form": {
+      "title": {
+        "create": "Skapa ny webbplats",
+        "update": "Uppdatera webbplats",
+        "selectModel": "Välj Model"
+      },
+      "category": "Välj category",
+      "submit": "Spara webbplats",
+      "cancel": "Cancel",
+      "info": "Skapa info"
+    },
+    "infoForm": {
+      "cancel": "Stäng",
+      "submit": "Spara"
+    },
+    "deleteSectionConfirm": "Är du säker på att du vill radera sektionen i '{{site}}'?",
+    "delete": "Remove",
+    "deleteConfirm": "Är du säker på att du vill radera webbplatsen {{site}}?",
+    "goto": "Go to",
+    "visit": "Besök",
+    "listTitle": "Registrerade webbplatser",
+    "manage": "Hantera Kanaler"
+  },
+  "channels": {
+    "channelsTitle": "Kanaler",
+    "description": "Beskrivning",
+    "quantity": "Antal",
+    "manage": "Hantera Behover",
+    "demander": {
+      "name": "Beställare",
+      "select": "Välj beställare",
+      "add": "Lägg till"
+    },
+    "address": {
+      "name": "Adress",
+      "select": "Välj adress",
+      "add": "Lägg till"
+    },
+    "city": "Stad",
+    "postalCode": "Postnummer",
+    "phone": "Telefonnummer",
+    "email": "Kontakt E-post",
+    "createdAt": "Tillagd",
+    "edit": "Ändra",
+    "delete": "Ta bort",
+    "deleteSectionConfirm": "Är du säker på att du vill radera sektionen i kanalen '{{channel}}'?",
+    "deleteConfirm": "Är du säker på att du vill ta bort kanalen {{channel}}?",
+    "details": {
+      "status": "Status",
+      "title": "Titel"
+    },
+    "form": {
+      "labels": {
+        "identifier": "Identifier",
+        "title": "Titel",
+        "description": "Beskrivning",
+        "drafted": "Utkast",
+        "published": "Publicerad"
+      },
+      "title": {
+        "create": "Skapa ny kanal",
+        "update": "Uppdatera kanal",
+        "selectModel": "Välj modell"
+      },
+      "category": "Välj kategori",
+      "submit": "Spara kanal",
+      "cancel": "Stäng"
+    }
+  },
+  "demands": {
+    "demandsTitle": "Behov",
+    "description": "Beskrivning",
+    "quantity": "Antal",
+    "demander": {
+      "name": "Beställare",
+      "select": "Välj beställare",
+      "add": "Lägg till"
+    },
+    "address": {
+      "name": "Adress",
+      "select": "Välj adress",
+      "add": "Lägg till"
+    },
+    "city": "Stad",
+    "postalCode": "Postnummer",
+    "phone": "Telefonnummer",
+    "email": "Kontakt E-post",
+    "createdAt": "Tillagd",
+    "edit": "Ändra",
+    "delete": "Ta bort",
+    "deleteConfirm": "Är du säker på att du vill ta bort behovet: {{demand}}?",
+    "details": {
+      "status": "Status",
+      "title": "Titel"
+    },
+    "form": {
+      "labels": {
+        "identifier": "Identifier",
+        "title": "Titel",
+        "drafted": "Utkast",
+        "published": "Publicerad"
+      },
+      "title": {
+        "create": "Skapa nytt behov",
+        "update": "Uppdatera kanalen",
+        "selectModel": "Välj modell"
+      },
+      "category": "Välj kategori",
+      "submit": "Spara behov",
+      "cancel": "Stäng"
+    },
+    "deleteSectionConfirm": "Är du säker på att du vill ta bort följande sektion: '{{demand}}'?",
+    "listSection":{
+      "modelTitle": "Objektlista",
+      "reqTitle": "Kravlista",
+      "mandatory": "Obligatorisk",
+      "addModel": "Lägg till objekt",
+      "addReq": "Lägg till krav",
+      "deleteModel": "Ta bort objektet",
+      "deleteReq": "Ta bort kravet"
+    }
+  },
+  "invite": {
+    "title": "Användar Inbjudningsformulär",
+    "email": "E-post",
+    "name": "Namn",
+    "submit": "Inbjuda",
+    "admin": "Auktorisera som administratör",
+    "helperText": "Felaktigt E-postformat"
+  },
+  "assets": {
+    "quantity": "Antal",
+    "createdAt": "Tillagd",
+    "availableDate": "Tillgängligt datum",
+    "description": "Beskrivning",
+    "cost": "Total kostnad",
+    "producer": "Producent",
+    "edit": "Ändra",
+    "delete": "Ta bort",
+    "tags": {
+      "donating": "Donation",
+      "selling": "Säljes",
+      "available": "Tillgänglig",
+      "notavailable": "Tillgänlig senare"
+    },
+    "deleteConfirm": "Är du säker på att du vill ta bort Tillgång: {{asset}}?",
+    "form": {
+      "howItWorks": "Hur det fungerar",
+      "createAsset": "Skapa tillgång",
+      "error": {
+        "quantity": "Du måste ange ett antal",
+        "available": "Du måste ange ett datum",
+        "dateError": "Datumet måste vara före dagens datum",
+        "quantityDate": "Du måste ange ett antal & datum",
+        "price": "Du måste ange ett pris",
+        "dateQuantityPrice": "Du måste ange ett antal, datum & pris",
+        "datePrice": "Du måste ange ett datum & pris",
+        "model": "Du måste välja en modell",
+        "modelQuantity": "Du måste välja modell och antal"
+      },
+      "isCompany": {
+        "label": "Jag representerar ett företag eller organisation",
+        "true": "Ja",
+        "false": "Nej"
+      },
+      "isRecurring": {
+        "label": "Jag vill ge återkommande",
+        "true": "Ja",
+        "false": "Nej"
+      },
+      "isDonation": {
+        "label": "Jag donerar materialet",
+        "true": "Ja",
+        "false": "Nej",
+        "currency": "Valuta"
+      },
+      "price": "Totala kostnaden",
+      "isAvailable": {
+        "label": "Jag kan skicka varor direkt",
+        "true": "Ja",
+        "false": "Nej"
+      },
+      "availableDate": "Tillgängligt datum",
+      "contact": "Personlig information",
+      "message": "Meddelande",
+      "true": "Ja",
+      "false": "Nej",
+      "assistanceInfo": "Biståndsinformation",
+      "createAssetButton": "Skapa Tillgång"
+    }
+  },
+  "confirmDelete": {
+    "title": "Radera",
+    "cancel": "Avbryt",
+    "confirm": "Ta bort"
+  },
+  "city": {
+    "noOption": "Ingen stad hittades"
+  },
+  "categories": {
+    "1": "Ansiktsskydd",
+    "2": "Ögonskydd",
+    "3": "Handskar",
+    "4": "Förkläden",
+    "5": "Kläder"
+  },
+  "thankyou": {
+    "modal": {
+      "close": "Stäng",
+      "header": "Koppling slutford",
+      "text": "En koppling är slutförd för {{demand}} och bidragsgivaren. Bidragsgivaren kommer att få leveransinformationen via email."
+    }
+  },
+  "adminPage": {
+    "form": {
+      "title": "Lägg till modell",
+      "placeholderModel": "Modell",
+      "placeholderProduct": "Välj en produkt",
+      "addNewProduct": "Lägg till"
+    },
+    "products": {
+      "title": "Befintliga produkter"
+    },
+    "dialogs": {
+      "deleteConfirm": "Är du säker på att du vill ta bort modellen: {{model}}?",
+      "editProductTitle": "Redigera produkt",
+      "addNewProduct": "Vill du lägga till ny produkt?"
+    }
+  },
+  "back": {
+    "sites": "Tillbaka till sidor",
+    "channels": "Tillbaka till kanaler"
+  },
+  "notification": {
+    "login_failed": "Fel uppgifter",
+    "auth_logout": "Sessionen utloggad",
+    "invite_user_success": "Success: Användarinbjudan skickad",
+    "invite_user_error": "Error: Misslyckades med att skicka användarinbjudan",
+    "session_timeout": "Session Timeout",
+    "signup_password_amount": "* Minst 8 tecken",
+    "signup_autocomplete_no_option": "Kontrollera stavningen",
+    "signup_password_mismatch": "* Lösenordet matchar inte",
+    "product_added_success": "Success: Produkt har lagts fram",
+    "product_deleted_success": "Success: Produkt har raderats!",
+    "product_updated_success": "Success: Produkt uppdaterat",
+    "product_added_error": "Error: Misslyckades att lägga till Produkt",
+    "product_deleted_error": "Error: Misslyckades att radera Produkt",
+    "product_updated_error": "Error: Produkt misslyckades att uppdatera",
+    "model_added_success": "Success: Modell har lagts fram",
+    "model_deleted_success": "Success: Modell har raderats!",
+    "model_updated_success": "Success: Modell uppdaterat",
+    "model_added_error": "Error: Misslyckades att lägga till modell",
+    "model_deleted_error": "Error: Misslyckades att radera modell",
+    "model_updated_error": "Error: Modell misslyckades att uppdatera",
+    "demand_added_success": "Success: Behovet har lagts fram",
+    "demand_deleted_success": "Success: Behovet har raderats!",
+    "demand_updated_success": "Success: Behov uppdaterat",
+    "demand_updated_batch_success": "Success: Behov batch uppdaterat",
+    "demand_added_error": "Error: Misslyckades att lägga till behov",
+    "demand_deleted_error": "Error: Misslyckades att radera behov",
+    "demand_updated_error": "Error: Behov batch misslyckades att uppdatera",
+    "demand_updated_batch_error": "Error: Behov misslyckades att uppdatera",
+    "demand_patch_success": "Success: Behovet har uppdaterats",
+    "demand_patch_error": "Error: Misslyckades att uppdatera behovet",
+    "asset_added_success": "Success: Tillgang har lagts fram",
+    "asset_deleted_success": "Success: Tillgang har raderats!",
+    "asset_updated_success": "Success: Tillgang uppdaterat",
+    "asset_updated_batch_success": "Success: Tillgang batch uppdaterat",
+    "asset_updated_batch_error": "Error: Tillgang batch misslyckades att uppdatera",
+    "connected_assets_error": "Error: Bekräftelsen kunde inte skickas till givaren!",
+    "asset_added_error": "Error: Misslyckades att lägga till tillgang",
+    "asset_updated_error": "Error: Tillgang misslyckades att uppdatera",
+    "asset_deleted_error": "Error: Misslyckades att radera tillgang",
+    "no_cities_selected": "Kontrollera stavningen",
+    "site_added_success": "Success: Webbplatsen addad!",
+    "site_added_error": "Error: Misslyckades att lägga till webbplatsen",
+    "site_deleted_success": "Success: Webbplatsen har raderats!",
+    "site_deleted_error": "Error: Misslyckades att radera webbplatsen",
+    "site_updated_success": "Success: webbplatsen har uppdaterats!",
+    "site_updated_error": "Error: Misslyckades att uppdatera webbplatsen",
+    "site_patch_success": "Success: Sidändringar sparade",
+    "site_patch_error": "Error: Fel att spara sidändringar",
+    "channel_added_success": "Success: Kanal tillagd!",
+    "channel_added_error": "Error: Misslyckades att adda kanal",
+    "channel_deleted_success": "Success: Kanal har raderats!!",
+    "channel_deleted_error": "Error: Misslyckades att radera kanal",
+    "channel_updated_success": "Success: Kanal har uppdaterats!",
+    "channel_updated_error": "Error: Misslyckades att uppdatera kanal",
+    "channel_patch_success": "Success: Kanal har uppdaterats",
+    "channel_patch_error": "Error: Misslyckades att uppdatera kanal"
+  },
+  "mobileHomePage": {
+    "greeting": "Hej hela",
+    "city": {
+      "skane": "skåne!",
+      "smaland": "småland!",
+      "stockholm": "stockholm!"
+    },
+    "introText": "Vi befinner oss i en global kris och inget funkar riktigt som vanligt. Att få igång samarbete, på bredden och på tvären mellan offentliga och privat, civilt och professionellt, är viktigare än någonsin.",
+    "site_deleted_error": "Error: Misslyckades att radera siten",
+    "site_updated_success": "Success: Siten uppdaterad!",
+    "site_updated_error": "Error: Misslyckades med att radera siten"
+  },
+  "quill": {
+    "info": "Info",
+    "reqs": "Krav",
+    "buttonCardWarning": "Namn-fältet måste vara ifyllt för att kunna spara",
+    "form": {
+      "title": "Titel",
+      "name": "Namn",
+      "identifier": "Identifierare",
+      "description": "Beskrivning",
+      "externalLink": "Extern länk",
+      "url": "URL"
+    },
+    "thankyou": "Tack",
+    "cancel": "Stäng",
+    "submit": "Spara",
+    "delete": "Ta bort"
+  },
+  "cardHeader": {
+    "edit": "Redigera",
+    "delete": "Ta bort"
+  },
+  "image": {
+    "add": "Lägg till logotyp",
+    "remove": "Ta bort",
+    "change": "Ändra"
+  },
+  "uploadImage": {
+    "upload": "Ladda upp bild",
+    "image": "Använd bild",
+    "background": "Använd bakgrundsfärg",
+    "primary": "Primär",
+    "secondary": "Sekundär",
+    "warning": "Du måste ladda upp en bild",
+    "styleHeading": "Stilar" 
+  },
+  "preferredSize": {
+    "text": "Föredragna storlekar: "
+  },
+  "fileSize": {
+    "text": "Filstorleken måste vara mindre än 10 KB"
+  },
+  "buttonCard": {
+    "edit": "Ändra",
+    "create": "Skapa ny sida"
+  },
+  "sideBar": {
+    "buttons": {
+      "add": "Skapa ny webbplats",
+      "preview": "Förhandsgranska webbplats"
+    }
+  },
+  "emptyText": "Ingen text tillagd"
+}

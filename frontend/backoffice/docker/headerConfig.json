@@ -1,0 +1,42 @@
+{
+  "configs": [
+    {
+      "path": "/",
+      "fileExtension": "*",
+      "headers": [
+        {
+          "key": "X-XSS-Protection",
+          "value": "1;mode=block"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "http://192.168.1.50:8043/"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "no-cache,no-store,max-age=0,must-revalidate"
+        },
+        {
+          "key": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "key": "Expires",
+          "value": "-1"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains;"
+        }
+      ]
+    }
+  ]
+}

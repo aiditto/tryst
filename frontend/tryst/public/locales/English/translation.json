@@ -1,0 +1,362 @@
+{
+  "tagline": "We turn good intentions into valuable acts of giving in times of crisis",
+  "siteName": "AIDITTO",
+  "footerText": "Powered by",
+  "nativeName": "English",
+  "buttonCard": {
+    "learnMore": "Learn More"
+  },
+  "navbar": {
+    "home": "Home",
+    "coordinator": "Coordinator",
+    "contributor": "Contributor",
+    "news": "News",
+    "login": "Log in",
+    "logout": "Log out",
+    "register": "Sign up",
+    "admin": "Admin"
+  },
+  "login": {
+    "title": "Log In",
+    "email": "Email...",
+    "password": "Password...",
+    "submit": "Log in"
+  },
+  "landingPage": {
+    "subscribe": "Subscribe"
+  },
+  "news": {
+    "title": "News",
+    "filter": {
+      "placeholder": "City...",
+      "all": "Show all regions"
+    }
+  },
+  "contributor": {
+    "register": {
+      "title": "Create account",
+      "accountType": {
+        "label": "I am representing...",
+        "person": "myself",
+        "organisation": "a business or organisation"
+      },
+      "organisation": {
+        "name": "Organisation name",
+        "registrationNumber": "Registration number"
+      },
+      "name": "Name...",
+      "address": "Address...",
+      "city": "City...",
+      "postalCode": "Postal code...",
+      "phone": "Phone number...",
+      "email": "Email...",
+      "password": "Password...",
+      "confirmPassword": "Repeat password...",
+      "acceptTerms": "I accept <0>the terms and conditions</0>"
+    },
+    "profile": {
+      "title": "Profile",
+      "informationTitle": "Personal Information",
+      "assetsTitle": "My Contributions"
+    }
+  },
+  "connectItems": {
+    "demandsTitle": "Demands",
+    "assetsTitle": "Assets",
+    "resetFilter": "Show all assets",
+    "select": "Select",
+    "deselect": "Deselect",
+    "submit": "Connect",
+    "confirm": {
+      "title": "Verify that the information is correct",
+      "productName": "Product:",
+      "quantity": "Quantity:",
+      "demander": {
+        "title": "Demander",
+        "address": "To:",
+        "contact": "Contact details:"
+      },
+      "receivers": {
+        "title": "Connect with these assets",
+        "address": "To:",
+        "contact": "Contact details:"
+      },
+      "submit": "Send",
+      "cancel": "Cancel"
+    }
+  },
+  "products": {
+    "name": "Product",
+    "select": "Select product",
+    "createInfo": "Create info page",
+    "add": "Add",
+    "infoForm": {
+      "cancel": "Close",
+      "submit": "Save"
+    },
+    "addForm": {
+      "category": "Select Category",
+      "name": "ProductName",
+      "title": "Do you want to add new product?"
+    },
+    "createAsset": "Offer help",
+    "showInfo": "Info",
+    "hideInfo": "Close",
+    "noOption": "No product found"
+  },
+  "sites": {
+    "sitesTitle": "Sites",
+    "name": "Site name",
+    "url": "URL",
+    "info": "Information",
+    "identifier": "Identifier",
+    "edit": "Edit",
+    "form": {
+      "title": {
+        "create": "Create new site",
+        "update": "Update site",
+        "selectModel": "Select Model"
+      },
+      "category": "Select category",
+      "submit": "Save site",
+      "cancel": "Cancel",
+      "info": "Create Info"
+    },
+    "infoForm": {
+      "cancel": "Close",
+      "submit": "Save"
+    },
+    "delete": "Remove",
+    "deleteConfirm": "Are you sure you want to remove the site: {{site}}?",
+    "goto": "Go to",
+    "visit": "Visit",
+    "listTitle": "Registered Sites"
+  },
+  "demands": {
+    "contactInfo": "Contact Information",
+    "submitReq": "Submit Request",
+    "orgNumber": "Organization number",
+    "address": "Address",
+    "requirements": "Requirements",
+    "moreInfo": "More information",
+    "description": "Description",
+    "quantity": "Quantity",
+    "demander": {
+      "name": "Demander",
+      "select": "Select Demander",
+      "add": "Add"
+    },
+    "warnings": {
+      "email": "Invalid email format",
+      "phone": "Invalid phone format"
+    },
+    "city": "City",
+    "postalCode": "Postal code",
+    "phone": "Phone number",
+    "email": "Contact email",
+    "firstname": "First name",
+    "lastname": "Last name",
+    "phonenumber": "Phone number",
+    "createdAt": "Added on",
+    "edit": "Edit",
+    "delete": "Remove",
+    "deleteConfirm": "Are you sure you want to remove the demand: {{demand}}?",
+    "form": {
+      "title": {
+        "create": "Create new demand",
+        "update": "Update demand",
+        "selectModel": "Select Model"
+      },
+      "category": "Select category",
+      "submit": "Save demand",
+      "cancel": "Cancel"
+    },
+    "listSection": {
+      "modelTitle": "List of models",
+      "reqTitle": "List of Requirements"
+    },
+    "returnBtn": "View all demands"
+  },
+  "assets": {
+    "quantity": "Quantity",
+    "createdAt": "Added on",
+    "availableDate": "Available date",
+    "description": "Description",
+    "cost": "Total cost",
+    "producer": "Producer",
+    "edit": "Edit",
+    "delete": "Remove",
+    "tags": {
+      "donating": "Donation",
+      "selling": "For sale",
+      "available": "Available",
+      "notavailable": "Available later"
+    },
+    "deleteConfirm": "Are you sure you want to remove the asset: {{asset}}?",
+    "form": {
+      "howItWorks": "How it works",
+      "createAsset": "Create Asset",
+      "isCompany": {
+        "label": "I am representing a business or organisation",
+        "true": "Yes",
+        "false": "No"
+      },
+      "isRecurring": {
+        "label": "This is a recurring contribution",
+        "true": "Yes",
+        "false": "No"
+      },
+      "isDonation": {
+        "label": "This is a donation",
+        "true": "Yes",
+        "false": "No",
+        "currency": "Currency"
+      },
+      "price": "Total cost",
+      "isAvailable": {
+        "label": "I can deliver immediately",
+        "true": "Yes",
+        "false": "No"
+      },
+      "error": {
+        "quantity": "You must specify quantity",
+        "available": "You must specify a date",
+        "dateError": "Date must be before todays date",
+        "quantityDate": "You must specify quantity & date",
+        "price": "You must specify a price",
+        "dateQuantityPrice": "You must specify quantity,date & price",
+        "datePrice": "You must specify date and price",
+        "model": "You must select a model",
+        "modelQuantity": "You must specify a model and quantity"
+      },
+      "availableDate": "Available date",
+      "contact": "Personal information",
+      "message": "Message",
+      "assistanceInfo": "Assistance Information",
+      "true": "Yes",
+      "false": "No",
+      "createAssetButton": "Create Asset"
+    }
+  },
+  "confirmDelete": {
+    "title": "Delete",
+    "cancel": "Cancel",
+    "confirm": "Delete"
+  },
+  "city": {
+    "noOption": "No city found"
+  },
+  "categories": {
+    "1": "Facemask",
+    "2": "Eye protection",
+    "3": "Gloves",
+    "4": "Apron",
+    "5": "Clothes"
+  },
+  "thankyou": {
+    "modal": {
+      "close": "Close",
+      "header": "Connection completed",
+      "text": "A connection is made for {{demand}} and the contributor should receive delivery information via email."
+    }
+  },
+  "adminPage": {
+    "form": {
+      "title": "Add new model",
+      "placeholderModel": "Model",
+      "placeholderProduct": "Select product",
+      "addNewProduct": "Add"
+    },
+    "products": {
+      "title": "Existing products"
+    },
+    "dialogs": {
+      "deleteConfirm": "Are you sure you want to remove the model: {{model}}?",
+      "editProductTitle": "Edit product",
+      "addNewProduct": "Do you want to add a new product?"
+    }
+  },
+  "notification": {
+    "login_failed": "* Invalid credentials",
+    "session_timeout": "Session Timeout",
+    "signup_password_amount": "* 8 characters minimum",
+    "signup_autocomplete_no_option": "Check spelling",
+    "signup_password_mismatch": "* Passwords do not match",
+    "product_added_success": "Success: Product added",
+    "product_deleted_success": "Success: Product deleted!",
+    "product_updated_success": "Success: Product Updated",
+    "product_added_error": "Error: Failed to add product",
+    "product_deleted_error": "Error: Failed to delete product",
+    "product_updated_error": "Error: Product Failed to Update",
+    "model_added_success": "Success: Model added",
+    "model_deleted_success": "Success: Model deleted!",
+    "model_updated_success": "Success: Model updated",
+    "model_added_error": "Error: Failed to add model",
+    "model_deleted_error": "Error: Failed to delete model",
+    "model_updated_error": "Error: Model failed to update",
+    "demand_added_success": "Success: Demand added",
+    "demand_deleted_success": "Success: Demand deleted!",
+    "demand_updated_success": "Success: Demand updated",
+    "demand_updated_batch_success": "Success: Demand batch updated",
+    "demand_added_error": "Error: Failed to add demand!",
+    "demand_deleted_error": "Error: Failed to delete demand",
+    "demand_updated_error": "Error: Failed to update demand",
+    "demand_updated_batch_error": "Error: Failed to update demand batch",
+    "asset_added_success": "Success: Asset added",
+    "asset_deleted_success": "Success: Asset deleted!",
+    "asset_updated_success": "Success: Asset updated",
+    "asset_updated_batch_success": "Success: Asset batch updated",
+    "asset_updated_batch_error": "Error: Failed to update asset batch",
+    "connected_assets_error": "Error: Confirmation could not be sent to donor!",
+    "asset_added_error": "Error: Failed to add asset",
+    "asset_updated_error": "Error: Failed to update asset",
+    "asset_deleted_error": "Error: Failed to delete asset",
+    "no_cities_selected": "Check spelling",
+    "site_added_success": "Success: Site has been added!",
+    "site_added_error": "Error: Failed to add site",
+    "site_deleted_success": "Success: Site has been deleted!",
+    "site_deleted_error": "Error: Failed to delete site",
+    "response_added_success": "Success: Response has been added",
+    "response_added_error": "Error: Failed to add Response"
+  },
+  "mobileHomePage": {
+    "greeting": "Hello all of",
+    "city": {
+      "skane": "skåne!",
+      "smaland": "småland!",
+      "stockholm": "stockholm!"
+    },
+    "introText": "We are in a global crisis and nothing is working quite as usual. Starting cooperation, across the board and across public and private, civil and professional, is more important than ever.",
+    "site_deleted_error": "Error: Failed to delete site",
+    "site_updated_success": "Success: Site updated!",
+    "site_updated_error": "Error: Failed to update site"
+  },
+  "partners": {
+    "title": "Partners"
+  },
+
+  "ButtonCard": {
+    "reseller": "Reseller",
+    "manifacture": "Manifacture",
+    "carriers": "Carriers",
+    "volunteer": "Volunteer"
+  },
+
+  "Reseller": {
+    "title": "Reseller",
+    "introText": "We buy the goods you have available in the current crisis, you will return with more information when you have sent your application",
+    "goods": {
+      "face_mask": "Face mask",
+      "disinfectant": "Disinfectant",
+      "visor": "Visor",
+      "protective_gloves": "Protective gloves"
+    }
+  },
+  "CallsToAction": {
+    "contactInfo": "Contact Information",
+    "submitReq": "Submit Request",
+    "orgNumber": "Organization number",
+    "address": "Address",
+    "moreInfo": "More information"
+  }
+}

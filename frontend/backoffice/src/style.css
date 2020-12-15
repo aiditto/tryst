@@ -1,0 +1,22 @@
+.root-app {
+  display: flex;
+}
+
+.top-bar-container {
+  display: flex;
+}
+
+.sub-container {
+  flex: 1;
+}
+
+.menu-icon {
+  background-color: #e55656;
+  display: flex;
+  align-items: flex-start;
+}
+
+.menu-icon > svg {
+  color: #fff;
+  font-size: 2rem;
+}
