@@ -5,7 +5,6 @@
 =========================================================
 
 */
-import "assets/scss/material-ui-react.scss?v=1.8.0";
 import Topbar from "components/Topbars/Topbar";
 import Footer from "components/Footer/Footer";
 import { createBrowserHistory } from "history";
