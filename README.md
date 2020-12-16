@@ -18,11 +18,11 @@ Parties involved in service design workshops through Vinnova projects, represent
 * Tomelilla Kommun
 
 Private consultant companies offering their time and expertise to Vinnova-funded projects:
-* Sylog AB
-* Yabs AB (Young Aces by Sylog)
+* Sylog AB (significant pro bono contributions, we are so thankful ❤️)
+* Yabs AB (Young Aces by Sylog, significant pro bono contributions, we are so thankful ❤️)
 * Nidulus AB (early involvment in setting up the user interface and application structure)
 
-And of course the founders and the nationand and international advisory boards of
+And of course the founders, the national advisory board, and the international advisory board of
 * AIDITTO AB
 
 🚀
