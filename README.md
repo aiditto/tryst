@@ -8,4 +8,21 @@ These Sites are publicly facing webpages, enabling our customers to publish info
 
 Both of these frontends use the same backend API, [loopback (aka api/v1)](backend/loopback), is built strictly as an API that these two frontends communicate with. [Restify (aka api/v0)](backend/restify) is a remnant of our first take on this platform.
 
+**Big thanks to all significant contributors along the way**
+
+Parties involved in service design workshops through Vinnova projects, representing the needs owners:
+* Länsstyrelsen Skåne (*primary needs owner*)
+* Research Institutes of Sweden
+* Helsingborgs Stad
+* Lunds Kommun
+* Tomelilla Kommun
+
+Private consultant companies offering their time and expertise to Vinnova-funded projects:
+* Sylog AB
+* Yabs AB (Young Aces by Sylog)
+* Nidulus AB (early involvment in setting up the user interface and application structure)
+
+And of course the founders and the nationand and international advisory boards of
+* AIDITTO AB
+
 🚀
