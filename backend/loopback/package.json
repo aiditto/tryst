@@ -63,7 +63,7 @@
     "@loopback/service-proxy": "^3.0.0",
     "@types/dotenv": "^8.2.0",
     "@types/passport-azure-ad": "^4.0.7",
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "cookie-parser": "^1.4.5",
     "dotenv": "^8.2.0",
     "eslint-config-prettier": "^6.11.0",
