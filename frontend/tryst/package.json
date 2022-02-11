@@ -19,7 +19,7 @@
     "i18next-browser-languagedetector": "^4.1.1",
     "i18next-http-backend": "^1.0.19",
     "jsonwebtoken": "^8.5.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "nouislider": "14.0.2",
     "perfect-scrollbar": "1.4.0",
     "postcss-preset-env": "^6.7.0",
