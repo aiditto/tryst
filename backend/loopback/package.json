@@ -70,7 +70,7 @@
     "eslint-plugin-prettier": "3.1.0",
     "jsonwebtoken": "^8.5.1",
     "loopback-connector-postgresql": "^5.1.0",
-    "moment": "^2.28.0",
+    "moment": "^2.29.2",
     "nodemon": "^2.0.4",
     "passport": "^0.4.1",
     "passport-azure-ad": "^4.3.0",
