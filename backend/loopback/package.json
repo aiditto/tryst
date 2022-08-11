@@ -69,7 +69,7 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "3.1.0",
     "jsonwebtoken": "^8.5.1",
-    "loopback-connector-postgresql": "^5.1.0",
+    "loopback-connector-postgresql": "^5.5.1",
     "moment": "^2.28.0",
     "nodemon": "^2.0.4",
     "passport": "^0.4.1",
