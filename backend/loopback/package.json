@@ -68,7 +68,7 @@
     "dotenv": "^8.2.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "3.1.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "loopback-connector-postgresql": "^5.1.0",
     "moment": "^2.28.0",
     "nodemon": "^2.0.4",
