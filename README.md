@@ -1,6 +1,8 @@
 # The AIDITTO tryst
 This AIDITTO tryst platform includes frontend interfaces and backend APIs for the AIDITTO tryst. Read more about each application in their respective project folders.
 
+The reposistory was created by the AIDITTO team during Hack the Crisis 🦠 Sweden April 3rd-6th 2020. It was archived 2023-05-20. For more info about AIDITTO, visit the homepage at [aiditto.org](https://aiditto.org).
+
 ## Backoffice and Tryst
 The [backoffice](frontend/backoffice) is the primary administrator interface for the content publisher, to login and collaborate with each other and manage their created Sites, with all the content that is to be presented on them.
 
